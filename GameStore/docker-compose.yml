@@ -1,0 +1,11 @@
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: WEB_Ban_Nick_LQ
+      MYSQL_USER: sa
+      MYSQL_PASSWORD: 123
+    ports:
+      - 3307:3306
